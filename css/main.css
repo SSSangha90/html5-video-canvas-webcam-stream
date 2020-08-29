@@ -4,3 +4,8 @@
     border: 10px;
     margin: 0 auto;
 }
+
+#canvas {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
