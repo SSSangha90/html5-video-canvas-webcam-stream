@@ -10,9 +10,12 @@
 
     <div class="booth">
         <!-- Inject the source, hence no src attribute --> 
-        <canvas id="canvas" width="500" height="400">
+        <canvas class="canvas" id="canvas" width="500" height="400">
             <video id="video" width="500" height="550" autoplay controls></video>
         </canvas>
+    </div>
+    <div>
+        <button onclick="toggleFilter()">Toggle Filter</button>
     </div>
     
     <script src="js/video.js"></script>

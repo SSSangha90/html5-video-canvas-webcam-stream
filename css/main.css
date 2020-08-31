@@ -5,7 +5,12 @@
     margin: 0 auto;
 }
 
-#canvas {
+.canvas {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
+}
+
+.canvas2 {
+    -webkit-filter: sepia(100%);
+    filter: sepia(100%);
 }

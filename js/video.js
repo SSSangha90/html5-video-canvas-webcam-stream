@@ -54,3 +54,8 @@
     }
 
 })()
+
+const toggleFilter = () => {
+    var element = document.getElementById('canvas')
+    element.classList.toggle('canvas2')
+}
